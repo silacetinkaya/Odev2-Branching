@@ -6,6 +6,13 @@ WIDTH, HEIGHT = 400, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 
+# Renkler
+WHITE = (255, 255, 255)
+BLUE = (0, 0, 255)  # Yeni arka plan rengi mavi
+
+# Arka plan rengini değiştir
+screen.fill(BLUE)  # Burada arka plan rengini mavi yapıyoruz
+
 # Kuş ayarları
 bird_x = 50
 bird_y = 300
