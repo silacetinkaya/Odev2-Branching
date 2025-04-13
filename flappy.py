@@ -32,7 +32,8 @@ while running:
     bird_y += bird_velocity
 
     # Kuşu çiz
-    pygame.draw.circle(screen, (255, 255, 0), (bird_x, int(bird_y)), bird_radius)
+    pygame.draw.circle(screen, (255, 0, 0), (bird_x, int(bird_y)), bird_radius)
+
 
     pygame.display.flip()
     clock.tick(60)
